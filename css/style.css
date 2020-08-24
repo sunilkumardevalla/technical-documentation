@@ -26,6 +26,12 @@ html {
 body {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    background-color:rgb(242, 241, 241);
+
+  
+}
+@media only screen and (max-width: 50rem){
+    body{font-size: 50%;} /* 8px = 1rem */
 }
 
 /* header section */
@@ -66,14 +72,56 @@ body {
 }
 
 /* navbar */
-
-#navbar {
+.container{
+    display:flex;
     position: fixed;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    align-self: stretch;
+
 }
 
+
+#navbar {
+    margin-top: 6rem;
+    flex:0 0 18%;
+    border-right: 1px solid lightgrey;
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+
+}
+#main-doc{
+    flex:1;
+    overflow-y: auto;
+    background-color:white;
+    margin-top: 6rem;
+    margin-left: 3rem;
+    padding: 3rem;
+    
+}
+
+.navtitle{
+    margin: 2rem;
+    font-size: 1.5rem;
+    color:rgba(85, 85, 85, 0.753);
+    text-transform: uppercase;
+
+}
+
+.nav-link:link,
+.nav-link:visited{
+    margin: 1rem 3rem;
+    font-size:1.2rem;
+    text-decoration: none;
+    color: grey;
+
+}
 
 /* media query */
 
-@media only screen and (max-width: 50rem){
-    font-size: 50%; /* 8px = 1rem */
-}
+/*nav bar */
