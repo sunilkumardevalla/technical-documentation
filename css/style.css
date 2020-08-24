@@ -4,6 +4,9 @@
     --color-primary: rgb(35, 81, 127);
     --color-primary-light: rgb(56, 120, 196);
     --color-primary-dark: rgb(3, 41, 84);
+    --color-primary-verylight: rgb(156, 201, 252);
+
+    --color-font: rgb(51, 51, 51);
 }
 
 /* global reset */
@@ -27,6 +30,7 @@ body {
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
     background-color:rgb(242, 241, 241);
+    color: var(--color-font);
 
   
 }
@@ -44,16 +48,19 @@ body {
     width: 100%;
     background-color: var(--color-primary);
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
+    
 }
 
 
 /* logo */
 
+
 .logo-box {
     margin-left: 1rem;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -62,6 +69,7 @@ body {
     font-size: 3rem;
     letter-spacing: 2.5px;
     text-transform: uppercase;
+    display: block;
 }
 
 .des {
@@ -122,6 +130,103 @@ body {
 
 }
 
-/* media query */
 
-/*nav bar */
+.nonusable {
+    display: none;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--color-primary);
+    background-color: var(--color-primary-verylight);
+    padding: .5rem 1rem;
+    border-radius: 3px;
+    border: 1px solid var(--color-primary-light);
+}
+
+h2 {
+    color: var(--color-primary);
+    background-color: var(--color-primary-verylight);
+    padding: .5rem 1rem;
+    border-radius: 3px;
+    border: 1px solid var(--color-primary-light);
+}
+p {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    padding: 1rem 0;
+}
+
+ul {
+    padding: 1rem 2.5rem;
+}
+
+li {
+    color: var(--color-primary);
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+
+li:not(:last-child) {
+    margin-bottom: .5rem;
+}
+
+h3 {
+    font-size: 1.5rem
+}
+
+
+/* searchbar */
+
+.search {
+    display: flex;
+    align-items: center;
+    
+}
+
+.search-input {
+    padding: 1rem;
+    border: none;
+    background-color: var(--color-primary-dark);
+    width: 25rem;
+    border-radius: 25px 0 0 25px;
+}
+
+.search-btn {
+    padding: 1rem;
+    border: none;
+    background-color: var(--color-primary-dark);
+    border-radius: 0 25px 25px 0;
+    color: lightgrey;
+    border-left: 1px solid rgb(51, 51, 51);
+}
+
+.user-nav {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.photo {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 100px;
+    margin-right: 1rem;
+}
+
+.account {
+    font-size: 1.1rem;
+    color: lightgrey;
+}
+
+.copy {
+    display: block;
+    margin-top: 2rem;
+    font-size: 1.6rem;
+
+}

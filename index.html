@@ -11,58 +11,110 @@
 
     <header class="header">
         <div class="logo-box">
-            <p class="logo">J-Script</p>
-            <p class="des">documentation</p>
+            <span class="logo">J-Script</span>
+            <span class="des">documentation</span>
+        </div>
+        <form action="#" class="search">
+            <input type="text" class="search-input" placeholder="Search">
+            <button type="submit" class="search-btn">Search</button>
+        </form>
+        <div class="user-nav">
+            <img class="photo" src="https://avatarfiles.alphacoders.com/128/128984.png" alt="photo">
+            <span class="account">account</span>
         </div>
     </header>
     <div class="container">
         <nav id="navbar">
             <header class="navtitle">js documentation</header>
-            <a class="nav-link" href="#title">title</a>
-            <a class="nav-link" href="#title1">title1</a>
-            <a class="nav-link" href="#title2">title2</a>
-            <a class="nav-link" href="#title3">title3</a>
-            <a class="nav-link" href="#title4">title4</a>
+            <a class="nav-link" href="#javascript">javascript</a>
+            <a class="nav-link" href="#array">Array</a>
+            <a class="nav-link" href="#operators">Operators</a>
+            <a class="nav-link" href="#iteration">Iteration</a>
+            <a class="nav-link" href="#Modules">Modules</a>
         </nav>
 
         <main id="main-doc">
-            <section class="main-section" id="title"><header>title</header>
+            <section class="main-section" id="javascript"><header class="nonusable">javascript</header>
                 <h1>JavaScript</h1>
-                <p>This part of the JavaScript section on MDN serves as a repository of facts about the JavaScript language. Read more about this reference.</p>
-                <p></p>
+                <p>JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat. JavaScript is a prototype-based, multi-paradigm, single-threaded, dynamic language, supporting object-oriented, imperative, and declarative (e.g. functional programming) styles. Read more about JavaScript.</p>
+                <p>The standard for JavaScript is ECMAScript. As of 2012, all modern browsers fully support ECMAScript 5.1. Older browsers support at least ECMAScript 3. On June 17, 2015, ECMA International published the sixth major version of ECMAScript, which is officially called ECMAScript 2015, and was initially referred to as ECMAScript 6 or ES6. Since then, ECMAScript standards are on yearly release cycles. This documentation refers to the latest draft version, which is currently ECMAScript 2020.</p>
+                <h2>Global variables</h2>
                 <ul>
-                    <li></li>
-                    <li></li>
+                    <li>Infinity</li>
+                    <li>NaN</li>
+                    <li>undefined</li>
+                    <li>null</li>
+                </ul>
+                <h2>Function properties</h2>
+                <ul>
+                    <li>eval()</li>
+                    <li>unEval()</li>
+                    <li>isFinite()</li>
+                    <li>isNaN()</li>
+                    <li>parseFloat()</li>
+                    <li>decodeURI()</li>
+                    <li>encodeURIComponent()</li>
+                    <li>unescape()</li>
+                </ul>
+                <p>Do not confuse JavaScript with the Java programming language. Both "Java" and "JavaScript" are trademarks or registered trademarks of Oracle in the U.S. and other countries. However, the two programming languages have a very different syntax, semantic, and use.</p>
+            </section>
+            <section class="main-section" id="array"><header class="nonusable">array</header>
+                <h2>Array</h2>
+                <p>An array is an ordered collection of data (either primitive or object depending upon the language). Arrays are used to store multiple values in a single variable. This is compared to a variable that can store only one value. </p>
+                <p>Each item in an array has a number attached to it, called a numeric index, that allows you to access it. In JavaScript, arrays start at index zero and can be manipulated with various methods. </p>
+                <p>The concat method creates a new array consisting of the elements in the object on which it is called, followed in order by, for each argument, the elements of that argument (if the argument is an array) or the argument itself (if the argument is not an array). It does not recurse into nested array arguments.
+
+                    The concat method does not alter this or any of the arrays provided as arguments but instead returns a shallow copy that contains copies of the same elements combined from the original arrays. Elements of the original arrays are copied into the new array as follows:</p>
+                <ul>
+                    <li>Object references (and not the actual object): concat copies object references into the new array. Both the original and new array refer to the same object. That is, if a referenced object is modified, the changes are visible to both the new and original arrays. This includes elements of array arguments that are also arrays.</li>
+                    <li>Data types such as strings, numbers and booleans (not String, Number, and Boolean objects): concat copies the values of strings and numbers into the new array.</li>
                 </ul>
             </section>
-            <section class="main-section" id="title1"><header>title1</header>
-                <p></p>
-                <p></p>
+            <section class="main-section" id="operators"><header class="nonusable">operators</header>
+                <h2>Operators</h2>
+                <p>The operator attribute as two meanings based on the context itʼs used in. Either it defines the compositing or morphing operation to be performed.
+
+                    Two elements are using this attribute: <feComposite> and <feMorphology></p>
+                <p>over
+                    This value indicates that the source graphic defined in the in attribute is placed over the destination graphic defined in the in2 attribute.
+                    <br />in
+                    This value indicates that the parts of the source graphic defined in the in attribute that overlap the destination graphic defined in the in2 attribute, replace the destination graphic.
+                    <br />out
+                    This value indicates that the parts of the source graphic defined in the in attribute that fall outside the destination graphic defined in the in2 attribute, are displayed.
+                    <br />atop
+                    This value indicates that the parts of the source graphic defined in the in attribute, which overlap the destination graphic defined in the in2 attribute, replace the destination graphic. The parts of the destination graphic that do not overlap with the source graphic stay untouched.
+                    
+                    <br />xor
+                    This value indicates that the non-overlapping regions of the source graphic defined in the in attribute and the destination graphic defined in the in2 attribute are combined.
+                    lighter<br />
+                    This value indicates that the sum of the source graphic defined in the in attribute and the destination graphic defined in the in2 attribute is displayed.
+                    arithmetic<br />
+                    This value indicates that the source graphic defined in the in attribute and the destination graphic defined in the in2 attribute are combined using the following formula:<br /></p>
                 <ul>
-                    <li></li>
-                    <li></li>
+                    <li>Arithmetic Operators</li>
                 </ul>
-            </section>
-            <section class="main-section" id="title2"><header>title2</header>
-                <p></p>
-                <p></p>
-                <ul>
-                    <li></li>
-                </ul>
-                <code></code>
+                <code class="nonusable"></code>
                 <code></code>
             </section>
-            <section class="main-section" id="title3"><header>title3</header>
-                <p></p>
-                <p></p>
+            <section class="main-section" id="iteration"><header class="nonusable">iteration</header>
+                <h2>Loops and iteration</h2>
+                <p>Loops offer a quick and easy way to do something repeatedly. This chapter of the JavaScript Guide introduces the different iteration statements available to JavaScript.</p>
+                <p>The various loop mechanisms offer different ways to determine the start and end points of the loop. There are various situations that are more easily served by one type of loop over the others.</p>
                 <code></code>
-                <code></code>
+                <code>
+                </code>
+                <h3>for statement</h3>
+                <p>A for loop repeats until a specified condition evaluates to false. The JavaScript for loop is similar to the Java and C for loop.</p>
             </section>
-            <section class="main-section" id="title4"><header>title4</header>
-                <p></p>
-                <p></p>
+            <section class="main-section" id="Modules"><header class="nonusable">Modules</header>
+                <h2>JavaScript modules</h2>
+                <p>JavaScript programs started off pretty small — most of its usage in the early days was to do isolated scripting tasks, providing a bit of interactivity to your web pages where needed, so large scripts were generally not needed. Fast forward a few years and we now have complete applications being run in browsers with a lot of JavaScript, as well as JavaScript being used in other contexts (Node.js, for example).</p>
+                <p>It has therefore made sense in recent years to start thinking about providing mechanisms for splitting JavaScript programs up into separate modules that can be imported when needed. Node.js has had this ability for a long time, and there are a number of JavaScript libraries and frameworks that enable module usage (for example, other CommonJS and AMD-based module systems like RequireJS, and more recently Webpack and Babel).</p>
+                <p>The good news is that modern browsers have started to support module functionality natively, and this is what this article is all about. This can only be a good thing — browsers can optimize loading of modules, making it more efficient than having to use a library and do all of that extra client-side processing and extra round trips.</p>
                 <code></code>
+                <span class="copy">&copy; 2020, All rights reserved. For more information checkout <a href="https://devdocs.io/javascript/">Devdocs</a>&nbsp;and <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">Developer mozilla</a></span>
             </section>
+            
         </main>
     </div>
 
