@@ -1,0 +1,79 @@
+/* variables */
+
+:root {
+    --color-primary: rgb(35, 81, 127);
+    --color-primary-light: rgb(56, 120, 196);
+    --color-primary-dark: rgb(3, 41, 84);
+}
+
+/* global reset */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; /* 10px = 1rem */
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header section */
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 6rem;
+    width: 100%;
+    background-color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* logo */
+
+.logo-box {
+    margin-left: 1rem;
+
+}
+
+
+.logo {
+    color: lightgrey;
+    font-size: 3rem;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+}
+
+.des {
+    font-size: 1.3rem;
+    color: lightgrey;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* navbar */
+
+#navbar {
+    position: fixed;
+}
+
+
+/* media query */
+
+@media only screen and (max-width: 50rem){
+    font-size: 50%; /* 8px = 1rem */
+}
