@@ -1,3 +1,4 @@
+
 # DEMO
 checkout live demo here :https://dsunilk.github.io/technical-documentation/
 
@@ -7,7 +8,16 @@ checkout live demo here :https://dsunilk.github.io/technical-documentation/
 - HTML5
 - CSS3
 
+### Resources
+Google fonts<br/>
+loremipsumgenerator.com<br />
+
+#### BEM METHADOLOGY.
+
 
 ## Author
-- Alamgir
-- Sunil
+:bust_in_silhouette: Alamgir
+:bust_in_silhouette: Sunil
+
+#### Copyrights
+
