@@ -9,8 +9,10 @@ checkout live demo here :https://dsunilk.github.io/technical-documentation/
 - CSS3
 
 ### Resources
-Google fonts<br/>
-loremipsumgenerator.com<br />
+- Google fonts<br/>
+- loremipsumgenerator.com<br />
+- devdocs.io/javascript/<br/>
+- developer.mozilla.org/en-US/docs/Web/JavaScript
 
 #### BEM METHADOLOGY.
 
