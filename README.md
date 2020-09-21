@@ -1,3 +1,6 @@
+# Technical documentation Page
+
+This project is a part of microverse trials, and it's set up to work with GitHub Pages online.
 
 # DEMO
 checkout live demo here :https://dsunilk.github.io/technical-documentation/
