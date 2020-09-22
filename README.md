@@ -26,3 +26,4 @@ checkout live demo here :https://dsunilk.github.io/technical-documentation/
 
 #### Copyrights
 
+- Free to use.
