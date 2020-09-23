@@ -21,8 +21,14 @@ checkout live demo here :https://dsunilk.github.io/technical-documentation/
 
 
 ## Author
+
 :bust_in_silhouette: Alamgir <br />
+
 :bust_in_silhouette: Sunil
+
+## Show your support
+
+Give a ⭐️ if you like this project!
 
 #### Copyrights
 
