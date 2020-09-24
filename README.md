@@ -28,7 +28,11 @@ checkout live demo here :https://dsunilk.github.io/technical-documentation/
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Give a ⭐️ if you like this project
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!
 
 #### Copyrights
 
