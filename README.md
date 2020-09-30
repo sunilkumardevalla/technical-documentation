@@ -17,7 +17,12 @@ checkout live demo here :https://dsunilk.github.io/technical-documentation/
 - devdocs.io/javascript/<br/>
 - developer.mozilla.org/en-US/docs/Web/JavaScript
 
-#### BEM METHADOLOGY.
+#### BEM METHADOLOGY. 
+
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
 
 ### Setup
 
