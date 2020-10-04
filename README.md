@@ -30,6 +30,13 @@ To get a local copy up and running follow these simple example steps.
 2. Run `npm install` to install all the dependencies.
 3. Open index.html from the dist folder on the local Live server to run the app.
 
+
+### Usage
+```sh
+$ npm start
+```
+This will open the app at port 3000. If it doesn't open, visit ```http://localhost:3000```
+
 ## Author
 
 :bust_in_silhouette: Alamgir <br />
